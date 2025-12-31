@@ -62,6 +62,7 @@ export async function GET(request: Request) {
     const isoIndex = historicalHeaders.indexOf("ISO");
     const countryIndex = historicalHeaders.indexOf("Country");
     const sectorIndex = historicalHeaders.indexOf("Sector");
+    const gasIndex = historicalHeaders.indexOf("Gas");
 
     const historicalData: Record<string, Record<string, number>> = {};
     
@@ -69,9 +70,11 @@ export async function GET(request: Request) {
       const cols = parseCsvRow(historicalLines[i]);
       const countryName = cols[countryIndex];
       const sector = cols[sectorIndex];
+      const gas = cols[gasIndex];
       const iso = cols[isoIndex];
 
       if (sector !== "Total including LUCF") continue;
+      if (gas !== "All GHG") continue;
 
       if (!historicalData[countryName]) {
         historicalData[countryName] = {};

@@ -21,7 +21,7 @@ export default function TopEmittersBarChart() {
     const load = async () => {
       setLoading(true);
       try {
-        const year = selectedYear || "2020";
+        const year = selectedYear || "2030";
         const res = await fetch(`/api/data/combined-emissions?year=${year}`);
         const json = await res.json();
         const topTen = (json.data ?? [])
