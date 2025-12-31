@@ -1,0 +1,501 @@
+ISO,Country,Sector,Year,Predicted_Emissions
+CHN,China,Energy,2021,11097.22203903042
+CHN,China,Energy,2022,11377.121391357552
+CHN,China,Energy,2023,11658.083170780772
+CHN,China,Energy,2024,11939.826375599565
+CHN,China,Energy,2025,12227.015887502805
+CHN,China,Energy,2026,12519.8108446281
+CHN,China,Energy,2027,12818.289351096502
+CHN,China,Energy,2028,13122.529388353496
+CHN,China,Energy,2029,13432.608745617079
+CHN,China,Energy,2030,13748.604946484711
+IND,India,Energy,2021,2340.7479149456567
+IND,India,Energy,2022,2458.225331079846
+IND,India,Energy,2023,2576.587815539745
+IND,India,Energy,2024,2695.726297963929
+IND,India,Energy,2025,2818.099732400909
+IND,India,Energy,2026,2944.0043532274767
+IND,India,Energy,2027,3073.5303487464325
+IND,India,Energy,2028,3206.770092734987
+IND,India,Energy,2029,3343.818195613229
+IND,India,Energy,2030,3484.771556769861
+USA,United States,Energy,2021,4698.673898939996
+USA,United States,Energy,2022,4643.409738465198
+USA,United States,Energy,2023,4577.832291101088
+USA,United States,Energy,2024,4501.313314904876
+USA,United States,Energy,2025,4416.56681949394
+USA,United States,Energy,2026,4323.233829288201
+USA,United States,Energy,2027,4220.893355855173
+USA,United States,Energy,2028,4109.10737051917
+USA,United States,Energy,2029,3987.420173256102
+USA,United States,Energy,2030,3855.35773936092
+RUS,Russia,Energy,2021,2107.825575925461
+RUS,Russia,Energy,2022,2161.4361301550666
+RUS,Russia,Energy,2023,2215.771829445996
+RUS,Russia,Energy,2024,2270.8237960062625
+RUS,Russia,Energy,2025,2327.077102629604
+RUS,Russia,Energy,2026,2384.628612770659
+RUS,Russia,Energy,2027,2443.5061044371805
+RUS,Russia,Energy,2028,2503.73789029348
+RUS,Russia,Energy,2029,2565.3528258763745
+RUS,Russia,Energy,2030,2628.380317853357
+IDN,Indonesia,Energy,2021,673.2239836099393
+IDN,Indonesia,Energy,2022,696.3828171818291
+IDN,Indonesia,Energy,2023,719.5107352265334
+IDN,Indonesia,Energy,2024,742.5669340306515
+IDN,Indonesia,Energy,2025,766.0021262420829
+IDN,Indonesia,Energy,2026,789.9597861787024
+IDN,Indonesia,Energy,2027,814.4484575182987
+IDN,Indonesia,Energy,2028,839.4767302718775
+IDN,Indonesia,Energy,2029,865.0532364322308
+IDN,Indonesia,Energy,2030,891.186645338013
+BRA,Brazil,Energy,2021,440.79528897777254
+BRA,Brazil,Energy,2022,440.435746454526
+BRA,Brazil,Energy,2023,438.87554459950445
+BRA,Brazil,Energy,2024,436.0268854711016
+BRA,Brazil,Energy,2025,432.441959976198
+BRA,Brazil,Energy,2026,428.15925311589905
+BRA,Brazil,Energy,2027,423.14031658991973
+BRA,Brazil,Energy,2028,417.34506181871853
+BRA,Brazil,Energy,2029,410.73169740311903
+BRA,Brazil,Energy,2030,403.256664341696
+IRN,Iran,Energy,2021,741.7432642167272
+IRN,Iran,Energy,2022,763.0663134391845
+IRN,Iran,Energy,2023,784.774713023753
+IRN,Iran,Energy,2024,806.8579010242589
+IRN,Iran,Energy,2025,829.4147557498825
+IRN,Iran,Energy,2026,852.564923134823
+IRN,Iran,Energy,2027,876.3233442869928
+IRN,Iran,Energy,2028,900.7053290904623
+IRN,Iran,Energy,2029,925.7265651939595
+IRN,Iran,Energy,2030,951.4031272160091
+COD,Democratic Republic of the Congo,Energy,2021,14.925347722928308
+COD,Democratic Republic of the Congo,Energy,2022,19.804569580117573
+COD,Democratic Republic of the Congo,Energy,2023,24.721472815790918
+COD,Democratic Republic of the Congo,Energy,2024,29.714036810670564
+COD,Democratic Republic of the Congo,Energy,2025,34.35755406658339
+COD,Democratic Republic of the Congo,Energy,2026,39.1784063112011
+COD,Democratic Republic of the Congo,Energy,2027,44.18197878252687
+COD,Democratic Republic of the Congo,Energy,2028,49.37381153593863
+COD,Democratic Republic of the Congo,Energy,2029,54.75960385179775
+COD,Democratic Republic of the Congo,Energy,2030,60.34521876915912
+JPN,Japan,Energy,2021,990.3028940338705
+JPN,Japan,Energy,2022,973.6701817718503
+JPN,Japan,Energy,2023,954.26857187093
+JPN,Japan,Energy,2024,931.943038905733
+JPN,Japan,Energy,2025,907.4807131109934
+JPN,Japan,Energy,2026,880.8311582452833
+JPN,Japan,Energy,2027,851.8890629229786
+JPN,Japan,Energy,2028,820.5448805092329
+JPN,Japan,Energy,2029,786.6846727596619
+JPN,Japan,Energy,2030,750.1899479632582
+PAK,Pakistan,Energy,2021,207.98860822407173
+PAK,Pakistan,Energy,2022,222.5747214922115
+PAK,Pakistan,Energy,2023,237.27195594808174
+PAK,Pakistan,Energy,2024,252.0605254233722
+PAK,Pakistan,Energy,2025,267.0435226990264
+PAK,Pakistan,Energy,2026,282.4861485802552
+PAK,Pakistan,Energy,2027,298.4003292945538
+PAK,Pakistan,Energy,2028,314.7982805351818
+PAK,Pakistan,Energy,2029,331.6925142008764
+PAK,Pakistan,Energy,2030,349.09584528620064
+CHN,China,Industrial Processes,2021,1299.9776085130536
+CHN,China,Industrial Processes,2022,1340.3442694813748
+CHN,China,Industrial Processes,2023,1381.8154534912871
+CHN,China,Industrial Processes,2024,1424.420631490586
+CHN,China,Industrial Processes,2025,1468.2426776230423
+CHN,China,Industrial Processes,2026,1513.315492877761
+CHN,China,Industrial Processes,2027,1559.6739144760893
+CHN,China,Industrial Processes,2028,1607.3537416461172
+CHN,China,Industrial Processes,2029,1656.3917621059463
+CHN,China,Industrial Processes,2030,1706.825779275204
+IND,India,Industrial Processes,2021,158.12361256209095
+IND,India,Industrial Processes,2022,167.15444356593963
+IND,India,Industrial Processes,2023,176.47477448469078
+IND,India,Industrial Processes,2024,186.0932793060443
+IND,India,Industrial Processes,2025,196.0235215170577
+IND,India,Industrial Processes,2026,206.27454205378828
+IND,India,Industrial Processes,2027,216.85563504619356
+IND,India,Industrial Processes,2028,227.7763548235283
+IND,India,Industrial Processes,2029,239.04652311272977
+IND,India,Industrial Processes,2030,250.6762364350999
+USA,United States,Industrial Processes,2021,251.32490991058188
+USA,United States,Industrial Processes,2022,259.3505714743534
+USA,United States,Industrial Processes,2023,267.6058984689013
+USA,United States,Industrial Processes,2024,276.0988879452112
+USA,United States,Industrial Processes,2025,284.8363859262218
+USA,United States,Industrial Processes,2026,293.825222853266
+USA,United States,Industrial Processes,2027,303.0724179854204
+USA,United States,Industrial Processes,2028,312.58518459949187
+USA,United States,Industrial Processes,2029,322.37093533301555
+USA,United States,Industrial Processes,2030,332.4372876741945
+RUS,Russia,Industrial Processes,2021,55.71737452154726
+RUS,Russia,Industrial Processes,2022,57.74742299731207
+RUS,Russia,Industrial Processes,2023,59.83191654277887
+RUS,Russia,Industrial Processes,2024,61.97273865940976
+RUS,Russia,Industrial Processes,2025,64.17708269320636
+RUS,Russia,Industrial Processes,2026,66.44674118361992
+RUS,Russia,Industrial Processes,2027,68.78355639964444
+RUS,Russia,Industrial Processes,2028,71.18942171111718
+RUS,Russia,Industrial Processes,2029,73.6662829977506
+RUS,Russia,Industrial Processes,2030,76.21614009693315
+IDN,Indonesia,Industrial Processes,2021,35.784081372094334
+IDN,Indonesia,Industrial Processes,2022,37.70616158345329
+IDN,Indonesia,Industrial Processes,2023,39.688772532959206
+IDN,Indonesia,Industrial Processes,2024,41.733376122890355
+IDN,Indonesia,Industrial Processes,2025,43.84343078530342
+IDN,Indonesia,Industrial Processes,2026,46.020827807707704
+IDN,Indonesia,Industrial Processes,2027,48.26751137816834
+IDN,Indonesia,Industrial Processes,2028,50.585480048322296
+IDN,Indonesia,Industrial Processes,2029,52.97678823669193
+IDN,Indonesia,Industrial Processes,2030,55.443547773404504
+BRA,Brazil,Industrial Processes,2021,35.93435761958655
+BRA,Brazil,Industrial Processes,2022,37.63664919718391
+BRA,Brazil,Industrial Processes,2023,39.38844751250423
+BRA,Brazil,Industrial Processes,2024,41.191189942622415
+BRA,Brazil,Industrial Processes,2025,43.05040081457614
+BRA,Brazil,Industrial Processes,2026,44.96770120472719
+BRA,Brazil,Industrial Processes,2027,46.94475743075239
+BRA,Brazil,Industrial Processes,2028,48.98328230184116
+BRA,Brazil,Industrial Processes,2029,51.085036403318654
+BRA,Brazil,Industrial Processes,2030,53.251829416641584
+IRN,Iran,Industrial Processes,2021,41.2103467078672
+IRN,Iran,Industrial Processes,2022,42.66294335933744
+IRN,Iran,Industrial Processes,2023,44.15900233206633
+IRN,Iran,Industrial Processes,2024,45.699308136239964
+IRN,Iran,Industrial Processes,2025,47.284935044562644
+IRN,Iran,Industrial Processes,2026,48.91715844149627
+IRN,Iran,Industrial Processes,2027,50.59728905937409
+IRN,Iran,Industrial Processes,2028,52.326673952782514
+IRN,Iran,Industrial Processes,2029,54.10669749974974
+IRN,Iran,Industrial Processes,2030,55.938782430478085
+COD,Democratic Republic of the Congo,Industrial Processes,2021,3.3004221104527485
+COD,Democratic Republic of the Congo,Industrial Processes,2022,3.7532862946097634
+COD,Democratic Republic of the Congo,Industrial Processes,2023,4.229682208660124
+COD,Democratic Republic of the Congo,Industrial Processes,2024,4.730562942987048
+COD,Democratic Republic of the Congo,Industrial Processes,2025,5.248779161126236
+COD,Democratic Republic of the Congo,Industrial Processes,2026,5.784842965497065
+COD,Democratic Republic of the Congo,Industrial Processes,2027,6.339280888615519
+COD,Democratic Republic of the Congo,Industrial Processes,2028,6.9126342932163976
+COD,Democratic Republic of the Congo,Industrial Processes,2029,7.505459783406938
+COD,Democratic Republic of the Congo,Industrial Processes,2030,8.118329627155358
+JPN,Japan,Industrial Processes,2021,63.926295547740565
+JPN,Japan,Industrial Processes,2022,66.11947948691747
+JPN,Japan,Industrial Processes,2023,68.37094610299101
+JPN,Japan,Industrial Processes,2024,70.68251618764724
+JPN,Japan,Industrial Processes,2025,73.06166137077857
+JPN,Japan,Industrial Processes,2026,75.51027918553045
+JPN,Japan,Industrial Processes,2027,78.03031971599553
+JPN,Japan,Industrial Processes,2028,80.62378704540956
+JPN,Japan,Industrial Processes,2029,83.29274074418568
+JPN,Japan,Industrial Processes,2030,86.03929739888193
+PAK,Pakistan,Industrial Processes,2021,33.42235128788981
+PAK,Pakistan,Industrial Processes,2022,35.16473421284391
+PAK,Pakistan,Industrial Processes,2023,36.9674291920919
+PAK,Pakistan,Industrial Processes,2024,38.83196569125069
+PAK,Pakistan,Industrial Processes,2025,40.75595204312945
+PAK,Pakistan,Industrial Processes,2026,42.741104088375224
+PAK,Pakistan,Industrial Processes,2027,44.789185641479236
+PAK,Pakistan,Industrial Processes,2028,46.902009817349835
+PAK,Pakistan,Industrial Processes,2029,49.08144039442293
+PAK,Pakistan,Industrial Processes,2030,51.329393215314695
+CHN,China,Agriculture,2021,652.8111599556571
+CHN,China,Agriculture,2022,649.4226873029504
+CHN,China,Agriculture,2023,646.8081283654567
+CHN,China,Agriculture,2024,644.3355173419671
+CHN,China,Agriculture,2025,641.7690910920509
+CHN,China,Agriculture,2026,639.2158814745844
+CHN,China,Agriculture,2027,636.6853703919336
+CHN,China,Agriculture,2028,634.1641044887182
+CHN,China,Agriculture,2029,631.6530633662228
+CHN,China,Agriculture,2030,629.1535284823766
+IND,India,Agriculture,2021,735.3277454796499
+IND,India,Agriculture,2022,731.1021072085573
+IND,India,Agriculture,2023,728.7600247659612
+IND,India,Agriculture,2024,725.8773968436975
+IND,India,Agriculture,2025,722.8859430502991
+IND,India,Agriculture,2026,719.9880329645928
+IND,India,Agriculture,2027,717.1039901339511
+IND,India,Agriculture,2028,714.223646577375
+IND,India,Agriculture,2029,711.3573826902218
+IND,India,Agriculture,2030,708.5046393711464
+USA,United States,Agriculture,2021,380.22495594129254
+USA,United States,Agriculture,2022,378.5440922144623
+USA,United States,Agriculture,2023,377.25707212522855
+USA,United States,Agriculture,2024,375.9047905864619
+USA,United States,Agriculture,2025,374.5265745061598
+USA,United States,Agriculture,2026,373.1673486952045
+USA,United States,Agriculture,2027,371.81569657917214
+USA,United States,Agriculture,2028,370.46836512514886
+USA,United States,Agriculture,2029,369.12709837091427
+USA,United States,Agriculture,2030,367.7919527292667
+RUS,Russia,Agriculture,2021,103.35982828036965
+RUS,Russia,Agriculture,2022,103.02036927087202
+RUS,Russia,Agriculture,2023,102.96185131435188
+RUS,Russia,Agriculture,2024,102.81246311826199
+RUS,Russia,Agriculture,2025,102.6468517532737
+RUS,Russia,Agriculture,2026,102.4947496796961
+RUS,Russia,Agriculture,2027,102.34320913723148
+RUS,Russia,Agriculture,2028,102.19093667427207
+RUS,Russia,Agriculture,2029,102.03957109850359
+RUS,Russia,Agriculture,2030,101.88899699028522
+IDN,Indonesia,Agriculture,2021,153.75056545094156
+IDN,Indonesia,Agriculture,2022,152.97296644057724
+IDN,Indonesia,Agriculture,2023,152.67704886008784
+IDN,Indonesia,Agriculture,2024,152.33352672462104
+IDN,Indonesia,Agriculture,2025,151.94593604465717
+IDN,Indonesia,Agriculture,2026,151.57261818916754
+IDN,Indonesia,Agriculture,2027,151.20407206993156
+IDN,Indonesia,Agriculture,2028,150.8352775005685
+IDN,Indonesia,Agriculture,2029,150.4680654679621
+IDN,Indonesia,Agriculture,2030,150.10269990715062
+BRA,Brazil,Agriculture,2021,512.8572288358182
+BRA,Brazil,Agriculture,2022,509.75305523133846
+BRA,Brazil,Agriculture,2023,508.4161623125159
+BRA,Brazil,Agriculture,2024,506.4921299631013
+BRA,Brazil,Agriculture,2025,504.47397754395405
+BRA,Brazil,Agriculture,2026,502.5467848701387
+BRA,Brazil,Agriculture,2027,500.62677427914394
+BRA,Brazil,Agriculture,2028,498.70636565672845
+BRA,Brazil,Agriculture,2029,496.7960163030474
+BRA,Brazil,Agriculture,2030,494.8948910945091
+IRN,Iran,Agriculture,2021,35.90022192602744
+IRN,Iran,Agriculture,2022,35.89171340457644
+IRN,Iran,Agriculture,2023,36.10493174888822
+IRN,Iran,Agriculture,2024,36.252581894490916
+IRN,Iran,Agriculture,2025,36.384984067350175
+IRN,Iran,Agriculture,2026,36.526266386302716
+IRN,Iran,Agriculture,2027,36.66706968788623
+IRN,Iran,Agriculture,2028,36.80617190461592
+IRN,Iran,Agriculture,2029,36.94480865386398
+IRN,Iran,Agriculture,2030,37.08292671937775
+COD,Democratic Republic of the Congo,Agriculture,2021,27.312141256968125
+COD,Democratic Republic of the Congo,Agriculture,2022,27.52303099262511
+COD,Democratic Republic of the Congo,Agriculture,2023,27.70369195817107
+COD,Democratic Republic of the Congo,Agriculture,2024,27.87929110677487
+COD,Democratic Republic of the Congo,Agriculture,2025,28.058035826969444
+COD,Democratic Republic of the Congo,Agriculture,2026,28.2358499296362
+COD,Democratic Republic of the Congo,Agriculture,2027,28.41246017256814
+COD,Democratic Republic of the Congo,Agriculture,2028,28.588367221075565
+COD,Democratic Republic of the Congo,Agriculture,2029,28.76352781591467
+COD,Democratic Republic of the Congo,Agriculture,2030,28.93789737739415
+JPN,Japan,Agriculture,2021,22.113576970295767
+JPN,Japan,Agriculture,2022,22.32824315598857
+JPN,Japan,Agriculture,2023,22.52406207121497
+JPN,Japan,Agriculture,2024,22.72600830471977
+JPN,Japan,Agriculture,2025,22.927959382168886
+JPN,Japan,Agriculture,2026,23.128095810961028
+JPN,Japan,Agriculture,2027,23.327387705280785
+JPN,Japan,Agriculture,2028,23.52589125977371
+JPN,Japan,Agriculture,2029,23.72349472691763
+JPN,Japan,Agriculture,2030,23.920214234003133
+PAK,Pakistan,Agriculture,2021,199.2770809490471
+PAK,Pakistan,Agriculture,2022,198.1816554123556
+PAK,Pakistan,Agriculture,2023,197.89505223283976
+PAK,Pakistan,Agriculture,2024,197.33115988549312
+PAK,Pakistan,Agriculture,2025,196.723739544149
+PAK,Pakistan,Agriculture,2026,196.1571912310656
+PAK,Pakistan,Agriculture,2027,195.59232420801607
+PAK,Pakistan,Agriculture,2028,195.02584342390807
+PAK,Pakistan,Agriculture,2029,194.46260994285157
+PAK,Pakistan,Agriculture,2030,193.90221826626498
+CHN,China,Waste,2021,214.5849877289325
+CHN,China,Waste,2022,219.4456356327277
+CHN,China,Waste,2023,223.99182319312203
+CHN,China,Waste,2024,228.41527796824465
+CHN,China,Waste,2025,232.72192913033257
+CHN,China,Waste,2026,236.97871921949329
+CHN,China,Waste,2027,241.2092937515331
+CHN,China,Waste,2028,245.44417990287087
+CHN,China,Waste,2029,249.70155848058397
+CHN,China,Waste,2030,253.99805699320063
+IND,India,Waste,2021,87.20466253779706
+IND,India,Waste,2022,89.32359241223097
+IND,India,Waste,2023,91.80671174652419
+IND,India,Waste,2024,94.51826207526497
+IND,India,Waste,2025,97.42381702289546
+IND,India,Waste,2026,100.46759549939503
+IND,India,Waste,2027,103.62084163205898
+IND,India,Waste,2028,106.85614683553052
+IND,India,Waste,2029,110.15563545001386
+IND,India,Waste,2030,113.50489851694265
+USA,United States,Waste,2021,137.60358389772273
+USA,United States,Waste,2022,140.14102087726206
+USA,United States,Waste,2023,143.21072406262599
+USA,United States,Waste,2024,146.63717939914326
+USA,United States,Waste,2025,150.38328953379303
+USA,United States,Waste,2026,154.37943071849162
+USA,United States,Waste,2027,158.59218353005366
+USA,United States,Waste,2028,162.9886143491781
+USA,United States,Waste,2029,167.54812642156037
+USA,United States,Waste,2030,172.25418990879078
+RUS,Russia,Waste,2021,118.62256035499327
+RUS,Russia,Waste,2022,118.3342257295583
+RUS,Russia,Waste,2023,117.72802474567916
+RUS,Russia,Waste,2024,116.96370582279306
+RUS,Russia,Waste,2025,116.05955456817216
+RUS,Russia,Waste,2026,115.07489242593445
+RUS,Russia,Waste,2027,114.03430566834345
+RUS,Russia,Waste,2028,112.96525410065559
+RUS,Russia,Waste,2029,111.88444239174855
+RUS,Russia,Waste,2030,110.80616858647785
+IDN,Indonesia,Waste,2021,138.98642764322628
+IDN,Indonesia,Waste,2022,139.34914425869886
+IDN,Indonesia,Waste,2023,139.1317836373648
+IDN,Indonesia,Waste,2024,138.6175898340047
+IDN,Indonesia,Waste,2025,137.83386282424175
+IDN,Indonesia,Waste,2026,136.88424295839985
+IDN,Indonesia,Waste,2027,135.81018786093216
+IDN,Indonesia,Waste,2028,134.65925234838528
+IDN,Indonesia,Waste,2029,133.46003914361975
+IDN,Indonesia,Waste,2030,132.23725220228326
+BRA,Brazil,Waste,2021,71.93148876745252
+BRA,Brazil,Waste,2022,72.22383448813902
+BRA,Brazil,Waste,2023,72.40448052811358
+BRA,Brazil,Waste,2024,72.53734523702663
+BRA,Brazil,Waste,2025,72.62680588784997
+BRA,Brazil,Waste,2026,72.69590934833037
+BRA,Brazil,Waste,2027,72.75339899436712
+BRA,Brazil,Waste,2028,72.80979996237234
+BRA,Brazil,Waste,2029,72.87138502592602
+BRA,Brazil,Waste,2030,72.94369047464454
+IRN,Iran,Waste,2021,48.07772314013302
+IRN,Iran,Waste,2022,48.1685001118085
+IRN,Iran,Waste,2023,48.09445995086158
+IRN,Iran,Waste,2024,47.936766080300515
+IRN,Iran,Waste,2025,47.702727914511755
+IRN,Iran,Waste,2026,47.422208562407334
+IRN,Iran,Waste,2027,47.10705369009736
+IRN,Iran,Waste,2028,46.77103007078841
+IRN,Iran,Waste,2029,46.42242479543037
+IRN,Iran,Waste,2030,46.06844289646183
+COD,Democratic Republic of the Congo,Waste,2021,16.31742935645925
+COD,Democratic Republic of the Congo,Waste,2022,16.596310342408998
+COD,Democratic Republic of the Congo,Waste,2023,16.819130047869074
+COD,Democratic Republic of the Congo,Waste,2024,17.016088731291305
+COD,Democratic Republic of the Congo,Waste,2025,17.185162705688914
+COD,Democratic Republic of the Congo,Waste,2026,17.33710863964342
+COD,Democratic Republic of the Congo,Waste,2027,17.474739484404914
+COD,Democratic Republic of the Congo,Waste,2028,17.602694665455495
+COD,Democratic Republic of the Congo,Waste,2029,17.72345701270631
+COD,Democratic Republic of the Congo,Waste,2030,17.839436429300793
+JPN,Japan,Waste,2021,7.08391231505592
+JPN,Japan,Waste,2022,7.811581039140494
+JPN,Japan,Waste,2023,8.846005203583193
+JPN,Japan,Waste,2024,10.064214837037259
+JPN,Japan,Waste,2025,11.450438899704746
+JPN,Japan,Waste,2026,12.95335078368825
+JPN,Japan,Waste,2027,14.549725669978127
+JPN,Japan,Waste,2028,16.21400725607076
+JPN,Japan,Waste,2029,17.930418855397143
+JPN,Japan,Waste,2030,19.685825175651814
+PAK,Pakistan,Waste,2021,9.90885587296407
+PAK,Pakistan,Waste,2022,10.340142118372507
+PAK,Pakistan,Waste,2023,10.868659758069727
+PAK,Pakistan,Waste,2024,11.45770800128901
+PAK,Pakistan,Waste,2025,12.097746337319663
+PAK,Pakistan,Waste,2026,12.773004724987228
+PAK,Pakistan,Waste,2027,13.474897847748425
+PAK,Pakistan,Waste,2028,14.195119855691487
+PAK,Pakistan,Waste,2029,14.92805242205293
+PAK,Pakistan,Waste,2030,15.66910576214743
+CHN,China,Land-Use Change and Forestry,2021,0.0
+CHN,China,Land-Use Change and Forestry,2022,0.0
+CHN,China,Land-Use Change and Forestry,2023,0.0
+CHN,China,Land-Use Change and Forestry,2024,0.0
+CHN,China,Land-Use Change and Forestry,2025,0.0
+CHN,China,Land-Use Change and Forestry,2026,0.0
+CHN,China,Land-Use Change and Forestry,2027,0.0
+CHN,China,Land-Use Change and Forestry,2028,0.0
+CHN,China,Land-Use Change and Forestry,2029,0.0
+CHN,China,Land-Use Change and Forestry,2030,0.0
+IND,India,Land-Use Change and Forestry,2021,0.0
+IND,India,Land-Use Change and Forestry,2022,0.0
+IND,India,Land-Use Change and Forestry,2023,0.0
+IND,India,Land-Use Change and Forestry,2024,0.0
+IND,India,Land-Use Change and Forestry,2025,0.0
+IND,India,Land-Use Change and Forestry,2026,0.0
+IND,India,Land-Use Change and Forestry,2027,0.0
+IND,India,Land-Use Change and Forestry,2028,0.0
+IND,India,Land-Use Change and Forestry,2029,0.0
+IND,India,Land-Use Change and Forestry,2030,0.0
+USA,United States,Land-Use Change and Forestry,2021,0.0
+USA,United States,Land-Use Change and Forestry,2022,0.0
+USA,United States,Land-Use Change and Forestry,2023,0.0
+USA,United States,Land-Use Change and Forestry,2024,0.0
+USA,United States,Land-Use Change and Forestry,2025,0.0
+USA,United States,Land-Use Change and Forestry,2026,0.0
+USA,United States,Land-Use Change and Forestry,2027,0.0
+USA,United States,Land-Use Change and Forestry,2028,0.0
+USA,United States,Land-Use Change and Forestry,2029,0.0
+USA,United States,Land-Use Change and Forestry,2030,0.0
+RUS,Russia,Land-Use Change and Forestry,2021,0.0
+RUS,Russia,Land-Use Change and Forestry,2022,0.0
+RUS,Russia,Land-Use Change and Forestry,2023,0.0
+RUS,Russia,Land-Use Change and Forestry,2024,0.0
+RUS,Russia,Land-Use Change and Forestry,2025,0.0
+RUS,Russia,Land-Use Change and Forestry,2026,0.0
+RUS,Russia,Land-Use Change and Forestry,2027,0.0
+RUS,Russia,Land-Use Change and Forestry,2028,0.0
+RUS,Russia,Land-Use Change and Forestry,2029,0.0
+RUS,Russia,Land-Use Change and Forestry,2030,0.0
+IDN,Indonesia,Land-Use Change and Forestry,2021,606.2065722276501
+IDN,Indonesia,Land-Use Change and Forestry,2022,570.933690207688
+IDN,Indonesia,Land-Use Change and Forestry,2023,542.2716199818923
+IDN,Indonesia,Land-Use Change and Forestry,2024,526.7422758627604
+IDN,Indonesia,Land-Use Change and Forestry,2025,505.69574424761043
+IDN,Indonesia,Land-Use Change and Forestry,2026,486.15586009962556
+IDN,Indonesia,Land-Use Change and Forestry,2027,467.1607231545317
+IDN,Indonesia,Land-Use Change and Forestry,2028,448.3427900379326
+IDN,Indonesia,Land-Use Change and Forestry,2029,429.94480028137474
+IDN,Indonesia,Land-Use Change and Forestry,2030,411.8891805370764
+BRA,Brazil,Land-Use Change and Forestry,2021,376.94056161177576
+BRA,Brazil,Land-Use Change and Forestry,2022,364.3939280773562
+BRA,Brazil,Land-Use Change and Forestry,2023,349.5855999853216
+BRA,Brazil,Land-Use Change and Forestry,2024,334.46351222315303
+BRA,Brazil,Land-Use Change and Forestry,2025,320.176438431162
+BRA,Brazil,Land-Use Change and Forestry,2026,305.9637339505457
+BRA,Brazil,Land-Use Change and Forestry,2027,292.00975227959736
+BRA,Brazil,Land-Use Change and Forestry,2028,278.30776311340605
+BRA,Brazil,Land-Use Change and Forestry,2029,264.8294865939884
+BRA,Brazil,Land-Use Change and Forestry,2030,251.57661489567255
+IRN,Iran,Land-Use Change and Forestry,2021,0.0
+IRN,Iran,Land-Use Change and Forestry,2022,0.0
+IRN,Iran,Land-Use Change and Forestry,2023,0.0
+IRN,Iran,Land-Use Change and Forestry,2024,0.0
+IRN,Iran,Land-Use Change and Forestry,2025,0.0
+IRN,Iran,Land-Use Change and Forestry,2026,0.0
+IRN,Iran,Land-Use Change and Forestry,2027,0.0
+IRN,Iran,Land-Use Change and Forestry,2028,0.0
+IRN,Iran,Land-Use Change and Forestry,2029,0.0
+IRN,Iran,Land-Use Change and Forestry,2030,0.0
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2021,605.5323321578693
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2022,591.0869789102181
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2023,574.959980248071
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2024,558.6711161873005
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2025,543.5191284600213
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2026,528.4049060472383
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2027,513.6394383380076
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2028,499.1994917957549
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2029,485.0507493361915
+COD,Democratic Republic of the Congo,Land-Use Change and Forestry,2030,471.1997017400675
+JPN,Japan,Land-Use Change and Forestry,2021,0.0
+JPN,Japan,Land-Use Change and Forestry,2022,0.0
+JPN,Japan,Land-Use Change and Forestry,2023,0.0
+JPN,Japan,Land-Use Change and Forestry,2024,0.0
+JPN,Japan,Land-Use Change and Forestry,2025,0.0
+JPN,Japan,Land-Use Change and Forestry,2026,0.0
+JPN,Japan,Land-Use Change and Forestry,2027,0.0
+JPN,Japan,Land-Use Change and Forestry,2028,0.0
+JPN,Japan,Land-Use Change and Forestry,2029,0.0
+JPN,Japan,Land-Use Change and Forestry,2030,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2021,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2022,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2023,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2024,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2025,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2026,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2027,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2028,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2029,0.0
+PAK,Pakistan,Land-Use Change and Forestry,2030,0.0
