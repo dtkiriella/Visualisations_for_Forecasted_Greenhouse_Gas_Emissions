@@ -91,17 +91,34 @@ export default function GHGPredictions() {
   const chartData = useMemo(() => {
     if (selectedCountry === "all") return [];
     
-    const countryData = data.filter((d) => d.Country === selectedCountry);
-    const yearGroups = years.map((year) => {
+    let countryData = data.filter((d) => d.Country === selectedCountry);
+    
+    if (selectedGas !== "all") {
+      countryData = countryData.filter((d) => d.Gas === selectedGas);
+    }
+    
+    let filteredYears = years;
+    if (selectedYear !== "all") {
+      filteredYears = [parseInt(selectedYear)];
+    }
+    
+    const yearGroups = filteredYears.map((year) => {
       const yearData: any = { year: year.toString() };
-      gases.forEach((gas) => {
-        const gasData = countryData.find((d) => d.Year === year && d.Gas === gas);
-        yearData[gas] = gasData?.Predicted_Emissions || 0;
-      });
+      
+      if (selectedGas !== "all") {
+        const gasData = countryData.find((d) => d.Year === year && d.Gas === selectedGas);
+        yearData[selectedGas] = gasData?.Predicted_Emissions || 0;
+      } else {
+        gases.forEach((gas) => {
+          const gasData = countryData.find((d) => d.Year === year && d.Gas === gas);
+          yearData[gas] = gasData?.Predicted_Emissions || 0;
+        });
+      }
       return yearData;
     });
+    
     return yearGroups;
-  }, [data, selectedCountry, years, gases]);
+  }, [data, selectedCountry, selectedGas, selectedYear, years, gases]);
 
   if (loading) {
     return (
@@ -198,7 +215,10 @@ export default function GHGPredictions() {
       {selectedCountry !== "all" && (
         <div className="mb-6 rounded-lg bg-slate-800/30 p-4">
           <h4 className="mb-4 text-sm font-semibold text-slate-200">
-            {selectedCountry} - GHG Emissions by Type
+            {selectedCountry}
+            {selectedGas !== "all" && ` - ${selectedGas}`}
+            {selectedYear !== "all" && ` (${selectedYear})`}
+            {selectedGas === "all" && selectedYear === "all" && " - GHG Emissions by Type"}
           </h4>
           <ResponsiveContainer width="100%" height={350}>
             <LineChart data={chartData}>
@@ -225,16 +245,26 @@ export default function GHGPredictions() {
                 wrapperStyle={{ fontSize: "11px" }}
                 iconType="line"
               />
-              {gases.map((gas) => (
+              {selectedGas === "all" ? (
+                gases.map((gas) => (
+                  <Line
+                    key={gas}
+                    type="monotone"
+                    dataKey={gas}
+                    stroke={GAS_COLORS[gas] || "#64748b"}
+                    strokeWidth={2}
+                    dot={{ r: 3 }}
+                  />
+                ))
+              ) : (
                 <Line
-                  key={gas}
                   type="monotone"
-                  dataKey={gas}
-                  stroke={GAS_COLORS[gas] || "#64748b"}
+                  dataKey={selectedGas}
+                  stroke={GAS_COLORS[selectedGas] || "#64748b"}
                   strokeWidth={2}
                   dot={{ r: 3 }}
                 />
-              ))}
+              )}
             </LineChart>
           </ResponsiveContainer>
         </div>

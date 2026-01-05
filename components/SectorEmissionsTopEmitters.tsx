@@ -96,17 +96,34 @@ export default function SectorEmissionsTopEmitters() {
   const chartData = useMemo(() => {
     if (selectedCountry === "all") return [];
     
-    const countryData = data.filter((d) => d.Country === selectedCountry);
-    const yearGroups = years.map((year) => {
+    let countryData = data.filter((d) => d.Country === selectedCountry);
+    
+    if (selectedSector !== "all") {
+      countryData = countryData.filter((d) => d.Sector === selectedSector);
+    }
+    
+    let filteredYears = years;
+    if (selectedYear !== "all") {
+      filteredYears = [parseInt(selectedYear)];
+    }
+    
+    const yearGroups = filteredYears.map((year) => {
       const yearData: any = { year: year.toString() };
-      SECTORS.forEach((sector) => {
-        const sectorData = countryData.find((d) => d.Year === year && d.Sector === sector);
-        yearData[sector] = sectorData?.Predicted_Emissions || 0;
-      });
+      
+      if (selectedSector !== "all") {
+        const sectorData = countryData.find((d) => d.Year === year && d.Sector === selectedSector);
+        yearData[selectedSector] = sectorData?.Predicted_Emissions || 0;
+      } else {
+        SECTORS.forEach((sector) => {
+          const sectorData = countryData.find((d) => d.Year === year && d.Sector === sector);
+          yearData[sector] = sectorData?.Predicted_Emissions || 0;
+        });
+      }
       return yearData;
     });
+    
     return yearGroups;
-  }, [data, selectedCountry, years]);
+  }, [data, selectedCountry, selectedSector, selectedYear, years]);
 
   if (loading) {
     return (
@@ -203,7 +220,10 @@ export default function SectorEmissionsTopEmitters() {
       {selectedCountry !== "all" && (
         <div className="mb-6 rounded-lg bg-slate-800/30 p-4">
           <h4 className="mb-4 text-sm font-semibold text-slate-200">
-            {selectedCountry} - Emissions by Sector
+            {selectedCountry}
+            {selectedSector !== "all" && ` - ${selectedSector}`}
+            {selectedYear !== "all" && ` (${selectedYear})`}
+            {selectedSector === "all" && selectedYear === "all" && " - Emissions by Sector"}
           </h4>
           <ResponsiveContainer width="100%" height={350}>
             <AreaChart data={chartData}>
@@ -238,17 +258,28 @@ export default function SectorEmissionsTopEmitters() {
                 wrapperStyle={{ fontSize: "11px" }}
                 iconType="rect"
               />
-              {SECTORS.map((sector) => (
+              {selectedSector === "all" ? (
+                SECTORS.map((sector) => (
+                  <Area
+                    key={sector}
+                    type="monotone"
+                    dataKey={sector}
+                    stackId="1"
+                    stroke={SECTOR_COLORS[sector]}
+                    fill={`url(#gradient-${sector.replace(/\s+/g, '-')})`}
+                    strokeWidth={1.5}
+                  />
+                ))
+              ) : (
                 <Area
-                  key={sector}
                   type="monotone"
-                  dataKey={sector}
+                  dataKey={selectedSector}
                   stackId="1"
-                  stroke={SECTOR_COLORS[sector]}
-                  fill={`url(#gradient-${sector.replace(/\s+/g, '-')})`}
+                  stroke={SECTOR_COLORS[selectedSector]}
+                  fill={`url(#gradient-${selectedSector.replace(/\s+/g, '-')})`}
                   strokeWidth={1.5}
                 />
-              ))}
+              )}
             </AreaChart>
           </ResponsiveContainer>
         </div>
